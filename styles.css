@@ -1,7 +1,10 @@
-body {
+/* body {
   background-color: white;
 }
-
+#wiki-logo {
+  width: 250px;
+  margin: auto;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -17,16 +20,34 @@ body {
   width: 500px;
   text-align: center;
 }
+#toolbar {
+  width: 250px;
+  height: 28px;
+  position: relative;
+}
 
 #languages {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 40px 10px 20px 20px;
+  gap: 10px;
+  margin-left: 50px;
 }
 
 .language {
-  border: solid;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5580d5;
+  font-weight: 700;
   width: 100px;
   height: 100px;
+}
+
+.language p {
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .bottom {
@@ -49,4 +70,33 @@ body {
 #second-half {
   display: flex;
   justify-content: center;
+}
+
+#toolbar-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dropdown {
+  position: absolute;
+  margin-left: 170px;
+}
+
+#read-language {
+  padding: 10px;
+  margin: 0px 20px 20px 110px;
+  border: solid;
+  width: 250px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.header,
+.languages {
+  border: 1px solid black;
 }
